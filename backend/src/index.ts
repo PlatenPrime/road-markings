@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
 import authRoutes from "./routes/authRoutes";
-import markingRoutes from "./routes/markingRoutes";
-import roadRuleRoutes from "./routes/roadRuleRoutes";
+import markingRoutes from "./routes/markingRoutes.ts";
+import roadRuleRoutes from "./routes/roadRuleRoutes.ts";
 
 dotenv.config();
 
