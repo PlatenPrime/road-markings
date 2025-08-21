@@ -1,0 +1,23 @@
+@import "https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+.modal {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+
